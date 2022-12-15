@@ -9,7 +9,7 @@ const connectDB = require("./backEnd/connection/connectdb");
 
 //connecting to DB
 
-connectDB(process.env.MONGO_URL);
+connectDB();
 //external middleware
 const cors = require('cors')
 app.use(cors())
