@@ -4,7 +4,7 @@ const app =express()
 const dotenv = require("dotenv");
 dotenv.config();
 
-const connectDB = require("./var/task/backEnd/connection/connectdb");
+const connectDB = require("/var/task/backEnd/connection/connectdb");
 
 
 //connecting to DB
